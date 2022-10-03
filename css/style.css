@@ -1350,9 +1350,6 @@ margin-top: 8px;
 
     }
 
-    .card-section{
-        background: #008acf55;
-    }
     .service-div h1 {
         text-align: center;
     }
@@ -1361,9 +1358,6 @@ margin-top: 8px;
     .about-vission-cont p {
         text-align: left;
     }
-    .mission-vission-section{
-        background: #008acf55;
-    }
     .home-sub-cont{
         background: rgb(198, 198, 198);
     }
@@ -1371,6 +1365,14 @@ margin-top: 8px;
 
       margin-bottom: 2em;
 
+}
+}
+@media(max-width:550px) {
+.card-section{
+    background: #008acf55;
+}
+.mission-vission-section{
+    background: #008acf55;
 }
 }
 
@@ -1405,6 +1407,14 @@ margin-top: 8px;
    /* min-width: 26em; */
 }
 }@media(max-width:361px) {
+    #home-m-v .first-about-section .about-mission-cont,
+    #home-m-v .first-about-section .about-vission-cont {
+       width: 18em;
+      
+    }
+    
+} 
+@media(max-width:300px) {
     #home-m-v .first-about-section .about-mission-cont,
     #home-m-v .first-about-section .about-vission-cont {
        width: 15em;
