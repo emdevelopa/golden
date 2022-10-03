@@ -1404,14 +1404,11 @@ margin-top: 8px;
    width: 22em;
    /* min-width: 26em; */
 }
-}
-@media(max-width:361px) {
+}@media(max-width:361px) {
     #home-m-v .first-about-section .about-mission-cont,
     #home-m-v .first-about-section .about-vission-cont {
        width: 15em;
       
     }
- .textimoonial-section div>iframe{
-        width: 24em!important;
-    }
-}
+    
+} 
