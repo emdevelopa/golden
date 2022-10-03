@@ -1411,14 +1411,7 @@ margin-top: 8px;
        width: 15em;
       
     }
-.first-card img , .first-card .opac-container,.first-card #text-part{
-        width: 15em;
-    }
-    body{
-        width: 100%;
-        overflow: auto;
-    }
  .textimoonial-section div>iframe{
-        width: 20em!important;
+        width: 24em!important;
     }
 }
